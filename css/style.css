@@ -9,8 +9,16 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+
 p{
-  font-size: 100px;
+  font-size: 22px;
+  line-height: 1.5em;
 }
 
 h1 {
@@ -41,11 +49,11 @@ h1 {
 }
 
 #nav-bar a{
-  color:rgb(0,0,0);
+  color: black;
 }
 
 #nav-bar a:hover{
-  color:rgb(255,0,0);
+  color:red;
 }
 
 #nav-bar ul{
@@ -61,6 +69,7 @@ h1 {
   padding:0;
   display: inline;
 }
+
 
 #nav-name {
   font-weight: bold;
