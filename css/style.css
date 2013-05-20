@@ -1,3 +1,13 @@
+#adam {
+  min-height: 100%;
+  background-size: cover;
+  background-image:url('../img/bg.jpg');
+}
+
+#nav-bar {
+  background-color: rgb(255,255,255);
+}
+
 #nav-bar ul{
   margin:0;
   padding:0;
@@ -10,3 +20,25 @@
   padding:0;
   display: inline;
 }
+
+#lightbox{
+  background-color: white;
+  text-align: center;
+
+  width:400px;
+  margin-top: 200px;
+  margin-right: auto;
+  margin-left: auto;
+
+  box-shadow: 0px 0px 100px 10px #FFF;
+}
+
+#name {
+  display: block;
+  color:rgb(0,0,0);
+}
+
+#subtext{
+
+}
+
