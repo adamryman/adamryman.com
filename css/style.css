@@ -10,10 +10,18 @@ a {
 }
 
 #adam {
+}
+
+#background {
+  position: absolute;
+  height:auto;
+  min-width: 100%;
   min-height: 100%;
   background-size: cover;
   background-image:url('../img/bg.jpg');
 }
+
+/* nav stuff */
 
 #nav-bar {
   background-color: rgb(255,255,255);
@@ -42,6 +50,8 @@ a {
   display: inline;
 }
 
+/* Box to put name in */
+
 #lightbox{
   background-color: white;
   text-align: center;
@@ -55,8 +65,6 @@ a {
 
   border-radius: 3px;
   box-shadow: 0px 0px 100px 10px #FFF;
-
-
 }
 
 #name {
