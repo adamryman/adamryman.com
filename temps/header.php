@@ -12,4 +12,5 @@
 					<li><a href="about.php">About</a></li>
 					<li><a href="http://github.com/adamryman" target="_blank">GitHub</a></li>
 					<li><a href="http://twitter.com/adamhryman" target="_blank">Twitter</a></li>
+					<li><a href="www.linkedin.com/in/adamryman" target="_blank">LinkedIn</a></li>
 				</ul></div>
