@@ -4,7 +4,4 @@
 					<span id="subtext">Value Creator</span>
 				</div>
 			</div>
-		</div>
-	</body>
-</html>
-
+<?php include 'temps/footer.php'; ?>

@@ -5,12 +5,10 @@
 
 					<p> My name is Adam, I try to create value where there was none before.</p>
 
-					<p>Curently I run <a href="http://studentrnd.org" target="_blank">StudentRND</a> and 
+					<p>Curently I run <a href="http://studentrnd.org" target="_blank">StudentRND</a> and
 						<a href="http://codeday.org" target="_blank">CodeDay</a>.
 
 				</div>
 			</div>
-		</div>
-	</body>
-</html>
+<?php include 'temps/footer.php'; ?>
 
