@@ -7,22 +7,40 @@ body {
 
 a {
     text-decoration: none;
+    color: #616161;
 }
 
 a:hover {
     text-decoration: underline;
+     color:red;
 }
 
 p{
-  font-size: 22px;
-  line-height: 1em;
-  padding-top: 10px;
+  font-size: 20px;
+  line-height: 1.15em;
+  padding: 10 0 0 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+color: black;
+background: none;
+font-weight: normal;
+margin: 0;
+overflow: hidden;
+padding-top: .5em;
+padding-bottom: .17em;
+border-bottom: 1px solid #aaa;
 }
 
 h1 {
   font-family: 'Noto Serif', serif;
-
   font-size: 40px;
+
+}
+
+h2 {
+  font-family: 'Noto Serif', serif;
+  font-size: 30px;
 
 }
 
@@ -37,6 +55,7 @@ h1 {
   background-color: rgb(120,105,120);
   background-size: cover;
   background-image:url('../img/bg.jpg');
+  background-position:center; 
 }
 
 /* nav stuff */
@@ -73,21 +92,44 @@ h1 {
   font-weight: bold;
 }
 
+
+#about-nav{
+  white-space: nowrap;
+  list-style:circle;
+  font-size: 1.3em;
+  margin: 10 0 0 0;
+  padding: 10px;
+  padding-right: 30px;
+  background-color: #f9f9f9;
+  display: inline-block;
+  border: 2px solid #aaa;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+
+#about-nav li{
+  line-height: 1.3em;
+}
+
+#about-nav a{
+  color:black;
+}
+
 /* Box to put name in */
 
 .lightbox{
   background-color: white;
   margin-right: auto;
   margin-left: auto;
-  padding: 20px 0px 20px 0px;
-
+  line-height: 1em;
+  padding: 0px 0px 20px 0px;
   border-radius: 3px;
   box-shadow: 0px 0px 100px 10px #FFF;
 }
 
 #lightbox-home {
   text-align: center;
-
+  padding: 20px 0px 20px 0px;
   width:350px;
   height:100px;
   margin-top: 200px;
@@ -95,11 +137,23 @@ h1 {
 }
 
 #lightbox-about {
+  padding-top: 10px;
   padding-left: 30px;
+  padding-right: 30px;
   width:75%;
   height:auto;
   margin-top: 50px;
+  margin-bottom: 50px;
+}
 
+.about-section {
+  padding: 10 0 10 0;
+}
+
+.about-section li{
+  font-size: 18px;
+  line-height: 1em;
+  padding: 3 0 3 0;
 }
 
 #name {
