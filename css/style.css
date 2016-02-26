@@ -15,36 +15,32 @@ a:hover {
      color:red;
 }
 
-p{
+p {
   font-size: 20px;
   line-height: 1.15em;
   padding: 10 0 0 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
-color: black;
-background: none;
-font-weight: normal;
-margin: 0;
-overflow: hidden;
-padding-top: .5em;
-padding-bottom: .17em;
-border-bottom: 1px solid #aaa;
+	color: black;
+	background: none;
+	font-weight: normal;
+	margin: 0;
+	overflow: hidden;
+	padding-top: .5em;
+	padding-bottom: .17em;
+	border-bottom: 1px solid #aaa;
 }
 
 h1 {
   font-family: 'Noto Serif', serif;
   font-size: 40px;
-
 }
 
 h2 {
   font-family: 'Noto Serif', serif;
   font-size: 30px;
 
-}
-
-#adam {
 }
 
 #background {
@@ -55,7 +51,7 @@ h2 {
   background-color: rgb(120,105,120);
   background-size: cover;
   background-image:url('../img/bg.jpg');
-  background-position:center; 
+  background-position:center;
 }
 
 /* nav stuff */
@@ -75,7 +71,7 @@ h2 {
 
 #nav-bar ul{
   margin-left: 15%;
-  padding:10 0 10 0;
+  padding: 10px 0px 10px 0px;
   width:auto;
   list-style: none;
 }
